@@ -12,7 +12,7 @@ $ npm install jsmachinelearning
 
 ## Algorithms.
 
-### Simple Linear Regression.
+### Multiple Linear Regression.
 
 ```javascript
 > var MLAlgorithms = require('jsmachinelearning');
@@ -38,6 +38,7 @@ $ npm install jsmachinelearning
 
 **NOTE** : `MultipleLinearRegression` function provides a model using which we can train on data with more then one feature vector. In the above example we are having two feature vector in X. It can also be used to predict the value for the unknown data.
 
+### Simple Linear Regression
 ```javascript
 > var model = new MLAlgorithms.SimpleLinearRegression();
 
