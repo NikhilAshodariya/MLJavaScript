@@ -1,15 +1,13 @@
-var mlAlgorithms = require('jsmachinelearning');
+var mlAlgorithms = require('./MLAlgorithms.js');
 
-var model = new mlAlgorithms.MultipleLinearRegression();
 
-x = [
-  [1, 2],
-  [4, 2],
-  [6, 3],
-  [2, 3],
-  [5, 1]
+var data = [
+  [1, 43, 2],
+  [3, 32, 4],
+  [5, 13, 6],
+  [7, 44, 8]
 ]
-y=[1,2,3,2,5];
-model.fit(x,y)
-k = model.predict([[1,2],[4,2]]);
-console.log(k);
+var [x, y] = mlAlgorithms.get_X_And_Y(data);
+
+console.log(x);
+console.log(y);

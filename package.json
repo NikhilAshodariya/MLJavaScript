@@ -1,6 +1,6 @@
 {
   "name": "jsmachinelearning",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Popular algorithms of machine learning are made available",
   "main": "MLAlgorithms.js",
   "scripts": {
@@ -17,6 +17,9 @@
     "Regressor",
     "Regression",
     "ml",
+    "test train split",
+    "separate x and y",
+    "separate feature and target",
     "Machine Learning",
     "machine learning",
     "machine learning in javascript",
